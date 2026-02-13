@@ -44,27 +44,3 @@ API RESTful para gerenciamento de chamados (Helpdesk), com autenticação JWT, c
 
 ---
 
-## 🏗 Estrutura do Projeto
-src/
-│
-├── controllers/ → Camada de controle das requisições
-├── services/ → Regras de negócio
-├── routes/ → Definição das rotas
-├── middlewares/ → Autenticação e tratamento de erros
-├── utils/ → Helpers (Prisma, validações)
-│
-├── app.js → Configuração do Express
-└── server.js → Inicialização do servidor
-
-Arquitetura organizada em camadas:
-**Route → Controller → Service → Prisma**
-
----
-
-## ⚙️ Como Rodar o Projeto
-
-### 1️⃣ Clonar repositório
-
-```bash
-git clone <SEU_REPO_AQUI>
-cd sistema-chamados-backend
